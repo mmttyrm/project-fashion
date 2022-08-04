@@ -25,7 +25,7 @@
     list-style: none;
     padding: 0 12px;
 }
-.menu-item:hover{
+.menu-item:hover {
     color: var(--cl-black);
     background-color: var(--cl-white);
     border-radius: 8px;
@@ -39,17 +39,19 @@
     text-decoration: none;
     color: var(--cl-black);
     font-size: 1.6rem;
-    line-height:46px;
+    line-height: 46px;
     font-weight: 500;
 }
 .header-banner {
     width: 100%;
-    background-color: #F4F6F5;
+    background-color: #f4f6f5;
     border-radius: 59px;
     margin-top: 56px;
-    padding-top: 68px ;
-    padding-left: 81px;
-    padding-right: 81px;
+    margin-left: 10px;
+    padding-top: 68px;
+}
+.content-banner {
+    margin-left: 80px;
 }
 .title-banner > li {
     margin-bottom: 32px;
@@ -92,4 +94,30 @@
     background-color: var(--cl-brand);
     transform: rotate(-2deg);
     z-index: -1;
+}
+.bg-cl-br {
+    background-color: var(--cl-brand);
+}
+.flex {
+    display: flex;
+}
+.fl-center {
+    justify-content: center;
+    align-items: center;
+}
+.ads-brand {
+    width: 1290px;
+    height: 140px;
+    display: flex;
+    /* align-items: center; */
+    justify-content:space-around;
+    background-color: var(--cl-brand);
+}
+.ads-brand-item {
+    text-align: center;
+}
+.ads-logo {
+    height: 60px;
+    margin-top: 40px;
+    mix-blend-mode: multiply;
 }
