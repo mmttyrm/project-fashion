@@ -44,7 +44,7 @@
 }
 .header-banner {
     width: 100%;
-    background-color: #e3e3e3;
+    background-color: #F4F6F5;
     border-radius: 59px;
     margin-top: 56px;
     padding-top: 68px ;
@@ -72,9 +72,24 @@
     position: absolute;
     top: -10px;
     left: -20px;
+    width: 322px;
+    height: 82px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+    z-index: -1;
+}
+.highlight-title-brand {
+    position: relative;
+    z-index: 1;
+}
+.highlight-title-brand::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -20px;
     width: 372px;
     height: 88px;
-    background-color: #fff;
+    background-color: var(--cl-brand);
     transform: rotate(-2deg);
     z-index: -1;
 }
