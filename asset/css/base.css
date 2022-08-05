@@ -99,18 +99,7 @@ nav,
 section {
     display: block;
 }
-html {
-    font-size: 62.5%;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-}
-body {
-    line-height: 1;
-}
-ol,
-ul {
-    list-style: none;
-}
+
 blockquote,
 q {
     quotes: none;
@@ -126,7 +115,21 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    margin: 0;
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
 :root {
     --cl-brand: #e6c744;
     --cl-white: #fff;

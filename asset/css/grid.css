@@ -1,3 +1,9 @@
+/* 
+- c - mobile
+- m - table
+- l - pc
+*/
+
 .grid {
     width: 100%;
     display: block;
@@ -278,8 +284,8 @@
 /* PC medium resolution > */
 @media (min-width: 1113px) {
     .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -24px;
+        margin-right: -24px;
     }
 
     .row.sm-gutter {
@@ -288,8 +294,8 @@
     }
 
     .col {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .row.sm-gutter .col {
