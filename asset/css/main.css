@@ -56,9 +56,9 @@
     margin-left: 80px;
     margin-bottom: 38px;
 }
-.title-banner > li {
+.title-banner {
     margin-bottom: 32px;
-    line-height: 70px;
+    line-height: 82px;
     font-size: 7.2rem;
     font-weight: 800;
 }
@@ -132,6 +132,7 @@
 
 .content {
     margin-top: 36px;
+    margin-bottom: 36px;
 }
 .content__header {
     font-size: 36px;
@@ -185,7 +186,7 @@
     font-size: 2rem;
     color: var(--cl-text-dec);
 }
-.gradien-cl-br {
+.gradient-cl-br {
     background-image: radial-gradient(circle at top left,#ffec65,#e1c441,#e1c441);
 }
 .bg-cl-none {
@@ -193,4 +194,91 @@
 }
 .fw-bold {
     font-weight: 600;
+}
+
+.h2 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 62px;
+}
+.btn__group {
+    display: flex;
+}
+.t-center {
+    text-align: center;
+}
+.input-btn {
+    display: flex;
+    padding: 8px;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.input-text {
+    flex: 1;
+    margin-right: 12px;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: var(--cl-black);
+    padding: 36px 24px;
+    color: #fff;
+}
+.logo-footer-link {
+    display: block;
+    text-decoration: none;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.social__group {
+    display: flex;
+    margin: 24px 0;
+}
+.icon__link {
+    color: #000;
+    display: block;
+    min-width: 32px;
+    min-height: 32px;
+    padding: 8px 8px;
+    margin: 8px 8px;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    text-decoration: none;
+    background-color: var(--cl-brand);
+    border-radius: 8px;
+}
+.icon__social {
+    min-width: 32px;
+    min-height: 32px;
+    text-align: center;
+}
+.list-nav {
+    list-style: none;
+}
+
+.list-nav-item {
+    margin-bottom: 8px;
+}
+.list-nav-item:first-child {
+    margin-bottom: 36px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--cl-white);
+}
+.list-nav-link {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+.list-nav-link:hover {
+    color: #fff;
 }

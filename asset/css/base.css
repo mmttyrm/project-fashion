@@ -140,10 +140,28 @@ ul {
 .width-full {
     width: 100%;
 }
+.mt-0{
+    margin-top: 0 !important;
+}
 .mt-36 {
     margin-top: 36px;
 }
+.mr-24 {
+    margin-right: 24px;
+}
 
+.pb-36 {
+    padding-bottom: 36px; 
+}
+.bg-white{
+    background-color: var(--cl-white);
+}
+.cl-white{
+    color: var(--cl-white) !important;
+}
+.cl-tx-dec{
+    color: var(--cl-text-dec) !important;
+}
 .btn {
     display: block;
     border: none;
@@ -155,6 +173,7 @@ ul {
     color: var(--cl-white);
     border: solid 1px transparent;
     background-color: var(--cl-black);
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -179,3 +198,4 @@ ul {
     font-weight: 400;
     padding: 0 30px;
 }
+
